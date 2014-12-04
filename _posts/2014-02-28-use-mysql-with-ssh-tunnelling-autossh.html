@@ -1,0 +1,12 @@
+---
+layout: post
+title: Use MySQL with SSH Tunnelling, AutoSSH
+date: '2014-02-27T09:09:00.000-08:00'
+author: Dat Le
+tags: 
+modified_time: '2014-07-11T09:52:04.329-07:00'
+blogger_id: tag:blogger.com,1999:blog-3261104696526323937.post-1231145225070125506
+blogger_orig_url: http://lenguyenthedat.blogspot.com/2014/02/use-mysql-with-ssh-tunnelling-autossh.html
+---
+
+Just some notes for myself:<br /><br /><ul><li><strike>Apparently SSH Tunnelling works better than SSL for secure connection with MySQL server...</strike></li><li><strike>AutoSSH is to keep SSH session always alive (apt-get install autossh)</strike></li><li><strike>Command to be used:</strike></li><ul><li><strike>autossh -M29001 -f user@my.host.com -L 3307:localhost:3306 -NT</strike></li><li><strike>mysql -h 127.0.0.1 -P 3307 -u root -P</strike></li></ul></ul><div>Scratch all that. For some reasons, the performance while using Autossh with MySQL&nbsp;is just &nbsp;terrible&nbsp;. I'm not sure what the exact problem is, if it is from Autossh or MySQL, but I do know they don't go well together in my case.</div><div><br /></div><div>As a work-around, just put this alias on your ~/.bashrc and re-run it everytime it goes down (very rarely unless you do something at the server.)</div><div><div class="p1"><span class="s1"></span></div><ul><li><span class="s1">alias </span><span class="s2">mysqltunnel</span><span class="s1">="</span>ssh -f -L 29001:127.0.0.1:29001 -R 29001:127.0.0.1:29002 -L 3307:localhost:3306 -NT port-forwarding-user@my.host.com<span class="s1">"</span></li><li>mysql -h 127.0.0.1 -P 3307 -u root -P</li></ul></div><ul><ul></ul></ul>
