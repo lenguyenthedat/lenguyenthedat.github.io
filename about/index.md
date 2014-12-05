@@ -27,4 +27,3 @@ I am also a freelance photographer:
 - I like taking portraits of friends, landscapes and architectures.
 - Occasionally, I do take wedding / pre-wedding photos for quite a number of my friends.
 - My [flickr](https://www.flickr.com/photos/intoth3rainbow/).
-
