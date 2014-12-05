@@ -3,7 +3,7 @@ layout: home
 excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: sample-image-1.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: banner.jpg
+  credit: Le Nguyen The Dat
+  creditlink: https://www.flickr.com/photos/intoth3rainbow/5161017066/
 ---
