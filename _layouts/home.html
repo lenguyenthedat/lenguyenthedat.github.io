@@ -32,10 +32,9 @@
   <div class="article-author-side">
     {% include _author-bio.html %}
   </div>
-  <div id="index">
+  <article class="page">
     <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
     {% for post in site.posts limit:5 %}
-    <article>
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
       {% else %}
@@ -53,10 +52,8 @@
           </div>
         </footer>
       </div><!-- /.article-wrap -->
-
-    </article>
     {% endfor %}
-  </div><!-- /#index -->
+  </article><!-- /#index -->
 </div><!-- /#main -->
 
 <div class="footer-wrap">

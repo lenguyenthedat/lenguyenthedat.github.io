@@ -46,7 +46,7 @@ sed "s/\|\//\|\/copytables\//" repo1.txt > repo2.tmp.txt; mv repo2.tmp.txt repo2
 cat *.txt | sort -n > combined.txt
 {% endhighlight %}
 
-- Generate movies file:
+- Generate movie file:
 
 {% highlight bash %}
 gource combined.txt --key --title "Your clip name" --bloom-multiplier 0.5 --bloom-intensity 0.5 \
