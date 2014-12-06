@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Gource to visualize multiple git repositories at once.
+title: Using Gource to visualize multiple git repositories at once
 date: '2014-12-05T05:06:00.001-08:00'
 author: Dat Le
 tags:

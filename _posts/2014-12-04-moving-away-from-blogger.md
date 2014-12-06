@@ -1,4 +1,13 @@
-That's it, I've had enough. Blogging with Blogger is simply inefficient and annoying as hell.
+---
+layout: post
+title: Moving away from blogger
+date: '2014-12-04T05:06:00.001-08:00'
+author: Dat Le
+tags:
+modified_time: '2014-11-05T10:16:15.429-08:00'
+---
+
+That's it, I've had enough. Blogging with [Blogger](https://www.blogger.com) is simply inefficient and annoying as hell.
 I'm glad I made this decision. Below are the steps that I've taken:
 
 <br>

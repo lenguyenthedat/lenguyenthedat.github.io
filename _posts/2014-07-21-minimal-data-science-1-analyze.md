@@ -1,7 +1,6 @@
 ---
 layout: post
-title: 'Minimal Data Science #1: Classify StarCraft 2 players with Python Pandas and
-  Scikit-learn.'
+title: Minimal Data Science #1: Classify StarCraft 2 players with Python Pandas and Scikit-learn
 date: '2014-07-21T06:56:00.001-07:00'
 author: Dat Le
 tags: 

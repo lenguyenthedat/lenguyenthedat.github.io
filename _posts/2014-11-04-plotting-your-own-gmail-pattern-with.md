@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Plotting your own gmail pattern with Python.
+title: Plotting your own gmail pattern with Python
 date: '2014-11-04T05:06:00.001-08:00'
 author: Dat Le
 tags: 

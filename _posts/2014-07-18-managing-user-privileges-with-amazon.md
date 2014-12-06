@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Managing User Privileges with Amazon Redshift / PostgreSQL.
+title: Managing User Privileges with Amazon Redshift / PostgreSQL
 date: '2014-07-18T07:20:00.003-07:00'
 author: Dat Le
 tags: 
