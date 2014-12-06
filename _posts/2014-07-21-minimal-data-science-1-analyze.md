@@ -93,7 +93,18 @@ rfc.fit(train_df[list(features)], train_df.LeagueIndex)
 pd.crosstab(test_df.LeagueIndex, rfc.predict(test_df[features]), rownames=["Pred"], colnames=["Actual"])
 {% endhighlight %}
 
-![image](http://3.bp.blogspot.com/-c57m4J8cSQc/U80-Gyo19WI/AAAAAAAADJE/AUJrG6zWp9U/s1600/Screen+Shot+2014-07-21+at+21.47.47.png)
+{% highlight python %}
+RandomForestClassifier
+Actual   1   2   3   4   5   6  7
+Pred                             
+1       17  18   7   4   0   0  0
+2       14  22  20  19   7   1  0
+3        8  28  33  64  18   4  0
+4        9  14  41  86  61  17  0
+5        0   6  16  58  66  45  0
+6        0   0   3  25  47  73  0
+7        0   0   0   0   3   5  1
+{% endhighlight %}
 
 We can see that the correctness reduce greatly at League #1 and #7. It's simply because they are the 2 classes with lowest number of members.
 With a little over 3000 entries in our given dataset, we simply don't have enough data to "learn".
@@ -166,8 +177,23 @@ for classifier in classifiers:
     print "  -> Training time:", time.time() - start
 {% endhighlight %}
 
-![image](http://4.bp.blogspot.com/-Ecbjj5vBPRs/U9fCVN9pnqI/AAAAAAAADKM/42rbh7W1X5c/s1600/Screen+Shot+2014-07-29+at+23.50.19.png)
 
+{% highlight python %}
+ExtraTreesClassifier
+  -> Training time: 0.0490028858185
+RandomForestClassifier
+  -> Training time: 0.0870010852814
+KNeighborsClassifier
+  -> Training time: 0.00781583786011
+LDA
+  -> Training time: 0.0202190876007
+QDA
+  -> Training time: 0.00545406341553
+GaussianNB
+  -> Training time: 0.00332403182983
+DecisionTreeClassifier
+  -> Training time: 0.0392520427704
+{% endhighlight %}
 
 - Evaluation:
 
@@ -177,7 +203,22 @@ for classifier in classifiers:
     print np.sqrt(sum(pow(test_df.LeagueIndex - classifier.predict(test_df[features]),2)) / float(len(test_df)))
 {% endhighlight %}
 
-![image](http://3.bp.blogspot.com/-AUCd2P0B-0Y/U9fDFQAzsOI/AAAAAAAADKU/nYcfca9jUsE/s1600/Screen+Shot+2014-07-29+at+23.50.05.png)
+{% highlight python %}
+ExtraTreesClassifier
+1.2280633269
+RandomForestClassifier
+1.19202778179
+KNeighborsClassifier
+1.23231678199
+LDA
+1.1164728514
+QDA
+1.55181813847
+GaussianNB
+1.49456379263
+DecisionTreeClassifier
+1.38093328738
+{% endhighlight %}
 
 As we can see, Linear Discriminant Analysis (LDA) clearly won with a relatively low training time and best RMSD!
 {: .notice}
