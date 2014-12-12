@@ -7,13 +7,13 @@ tags:
 modified_time: '2014-12-12T10:16:15.429-08:00'
 ---
 
-**Situation**
+**Situation:**
 
 - We have a table named `products` with 2 columns: `product_id` and `stock`.
 - We wants to record stock movement for all products.
 - Storing a snapshot of `products` table everyday is just inefficient in term of space and time.
 
-**Sample data**
+**Sample data:**
 
 **Note:** We are going to use PostgreSQL syntax for this blogspot, since PostgreSQL is my favorite relational database. You should be able to do it with MySQL or any other relational database.
 {: .notice}
@@ -62,7 +62,7 @@ SELECT * FROM products_today ORDER BY product_id;
 (8 rows)
 {% endhighlight %}
 
-**Making history**
+**Making history:**
 
 **Note:** We're going to follow [SCD (Slowly Changing Dimension) Type 2](http://en.wikipedia.org/wiki/Slowly_changing_dimension#Type_2) method.
 {: .notice}
@@ -160,10 +160,9 @@ SELECT * FROM products_history ORDER BY product_id;
 (12 rows)
 {% endhighlight %}
 
-**Using historical tables**
-You are now ready to do some stock movement analysis reports.
+**Using historical tables:**
 
-- In order to get data at any point in time, for example: `2014-01-15 01:13:37` or `2014-01-16 01:13:37`:
+- To get data at any point in time, for example: `2014-01-15 01:13:37`:
 
 {% highlight sql %}
 SELECT product_id, stock FROM products_history
@@ -183,9 +182,11 @@ WHERE '2014-01-15 01:13:37' between start_date AND end_date ORDER BY product_id;
 **Note:** This should give you the same result as `product_yesterday`.
 {: .notice}
 
+- To get the latest data:
+
 {% highlight sql %}
 SELECT product_id, stock FROM products_history 
-WHERE '2014-01-16 01:13:37' between start_date AND end_date ORDER BY product_id;
+WHERE end_date = 'infinity';
 
  product_id | stock 
 ------------+-------
