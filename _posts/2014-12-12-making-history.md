@@ -7,18 +7,17 @@ tags:
 modified_time: '2014-12-12T10:16:15.429-08:00'
 ---
 
-**Situation:**
+![image](http://i.imgur.com/6uJIfTf.png)
 
-- We have a table named `products` with 2 columns: `product_id` and `stock`.
-- We wants to record stock movement for all products.
-- Storing a snapshot of `products` table everyday is just inefficient in term of space and time.
+**Problem description**: We have a table named `products` with 2 columns: `product_id` and `stock`. We wants to record stock movement for all products, but storing a snapshot of `products` table everyday is just inefficient in term of space and time.
+{: .notice}
 
-**Sample data:**
+<br>
+
+As a starter, we are going to create two `products` tables for `yesterday` and `today`:
 
 **Note:** We are going to use PostgreSQL syntax for this blogspot, since PostgreSQL is my favorite relational database. You should be able to do it with MySQL or any other relational database.
 {: .notice}
-
-- We are going to create 2 `products` tables for `yesterday` and `today`:
 
 {% highlight sql %}
 CREATE TABLE products_yesterday (product_id bigint, stock int); -- 2014-01-15
@@ -64,7 +63,7 @@ SELECT * FROM products_today ORDER BY product_id;
 
 **Making history:**
 
-**Note:** We're going to follow [SCD (Slowly Changing Dimension) Type 2](http://en.wikipedia.org/wiki/Slowly_changing_dimension#Type_2) method.
+**Note:** We're going to follow [SCD (Slowly Changing Dimension) Type 2](http://en.wikipedia.org/wiki/Slowly_changing_dimension#Type_2) method. This is, in a way, very similar to the how Apple's Time Machine works.
 {: .notice}
 
 - *Step 1*: create history table from `products_yesterday` (with `start_date` as yesterday's date and `end_date` as `infinity`:

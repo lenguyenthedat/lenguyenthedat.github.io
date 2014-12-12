@@ -7,6 +7,11 @@ tags:
 modified_time: '2014-11-05T10:16:15.429-08:00'
 ---
 
+![image](http://i.imgur.com/IZyNfOy.png)
+
+<br>
+<br>
+
 That's it, I've had enough. Blogging with [Blogger](https://www.blogger.com) is simply inefficient and annoying as hell.
 I'm glad I made this decision. Below are the steps that I've taken:
 
