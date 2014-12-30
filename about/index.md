@@ -18,7 +18,6 @@ I am a computer scientist:
 
 - I love programming, new technologies, being challenged, and building useful products.
 - I am particularly interested in solving data science and mathematics problems.
-- I am currently a data scientist as well as head of data warehouse at [ZALORA Group](http://worldwide.zalora.com/).
 
 I am also a [freelance photographer](https://www.flickr.com/photos/intoth3rainbow/):
 

@@ -26,9 +26,13 @@ image:
 Working Experience
 ==================
 
+**[MediaCorp Pte Ltd](http://www.mediacorp.sg)**
+
+* 12/2014 - present: Data Scientist
+
 **[ZALORA Group](http://worldwide.zalora.com)**
 
-* 05/2014 - present: Head of Data Warehouse & Data Science
+* 05/2014 - 12/2014: Head of Data Warehouse & Data Science
 
 * 06/2013 - 05/2014: Data Scientist, Programmer
 
@@ -36,7 +40,7 @@ Working Experience
 
 * 07/2011 - 06/2013: Research Engineer
 
-**[Plunify pte ltd](http://www.plunify.com)**
+**[Plunify Pte Ltd](http://www.plunify.com)**
 
 * 05/2011 - 07/2011: Software Engineer
 
