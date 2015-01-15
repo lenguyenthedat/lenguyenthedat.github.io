@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Storing historical data within your relational database.
+title: Storing historical data within your relational database
 date: '2014-12-12T15:06:00.001-08:00'
 author: Dat Le
 tags:
