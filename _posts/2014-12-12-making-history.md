@@ -2,6 +2,7 @@
 layout: post
 title: Storing historical data within your relational database
 date: '2014-12-12T15:06:00.001-08:00'
+comments: true
 author: Dat Le
 tags:
 modified_time: '2014-12-12T10:16:15.429-08:00'

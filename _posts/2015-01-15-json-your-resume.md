@@ -2,6 +2,7 @@
 layout: post
 title: Write your resume the programmer's way
 date: '2015-01-15T15:06:00.001-08:00'
+comments: true
 author: Dat Le
 tags:
 modified_time: '2015-01-15T10:16:15.429-08:00'

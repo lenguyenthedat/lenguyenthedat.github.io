@@ -5,6 +5,7 @@ date: '2014-07-21T06:56:00.001-07:00'
 author: Dat Le
 tags: 
 modified_time: '2014-07-29T08:52:42.374-07:00'
+comments: true
 thumbnail: http://3.bp.blogspot.com/-c57m4J8cSQc/U80-Gyo19WI/AAAAAAAADJE/AUJrG6zWp9U/s72-c/Screen+Shot+2014-07-21+at+21.47.47.png
 blogger_id: tag:blogger.com,1999:blog-3261104696526323937.post-3295306444867294091
 blogger_orig_url: http://lenguyenthedat.blogspot.com/2014/07/minimal-data-science-1-analyze.html

@@ -2,6 +2,7 @@
 layout: post
 title: Plotting your own gmail pattern with Python
 date: '2014-11-04T05:06:00.001-08:00'
+comments: true
 author: Dat Le
 tags: 
 modified_time: '2014-11-05T10:16:15.429-08:00'

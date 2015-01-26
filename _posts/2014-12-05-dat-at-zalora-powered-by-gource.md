@@ -2,6 +2,7 @@
 layout: post
 title: Using Gource to visualize multiple git repositories at once
 date: '2014-12-05T05:06:00.001-08:00'
+comments: true
 author: Dat Le
 tags:
 modified_time: '2014-11-05T10:16:15.429-08:00'

@@ -2,6 +2,7 @@
 layout: post
 title: Managing User Privileges with Amazon Redshift / PostgreSQL
 date: '2014-07-18T07:20:00.003-07:00'
+comments: true
 author: Dat Le
 tags: 
 modified_time: '2014-07-18T07:46:52.538-07:00'
