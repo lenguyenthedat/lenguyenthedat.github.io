@@ -30,8 +30,10 @@ owner:
   avatar: bio-photo.jpg
   bio: "Computer scientist, programmer, photographer"
   email: thedat.lenguyen@gmail.com
+  disqus-shortname: lenguyenthedat
   github: lenguyenthedat
   linkedin: lenguyenthedat
+  twitter: lenguyenthedat
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
