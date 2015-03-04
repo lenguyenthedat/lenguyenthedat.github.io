@@ -26,9 +26,13 @@ image:
 Working Experience
 ==================
 
+**[Commercialize TV](http://www.commercialize.tv)**
+
+* 03/2015 - present: Senior Data Technologist
+
 **[MediaCorp Pte Ltd](http://www.mediacorp.sg)**
 
-* 12/2014 - present: Data Scientist
+* 12/2014 - 02/2015: Data Scientist
 
 **[ZALORA Group](http://worldwide.zalora.com)**
 
