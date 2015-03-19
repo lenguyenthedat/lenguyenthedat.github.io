@@ -37,7 +37,7 @@ $ tar -xvf luit.tar.gz
 $ cd luit-20141204; ./configure; make; sudo make install
 {% endhighlight %}
 
-Apparently they fixed that in `luit 2.0`:
+Apparently they fixed that in `luit 2.0` - voilà:
 
 {% highlight bash %}
 $ luit -V
@@ -45,3 +45,5 @@ luit - 2.0-20141204
 $ echo ä¯ÀÀÁ¿ | luit -encoding gbk -x -c
 盲炉脌脌脕驴
 {% endhighlight %}
+
+Hopefully this will show up on google whenever someone else encountered this error :).
