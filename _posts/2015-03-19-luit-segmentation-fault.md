@@ -46,4 +46,4 @@ $ echo ä¯ÀÀÁ¿ | luit -encoding gbk -x -c
 盲炉脌脌脕驴
 {% endhighlight %}
 
-Hopefully this will show up on google whenever someone else encountered this error :).
+Hopefully this will show up on Google search results whenever someone else encountered this error :).
