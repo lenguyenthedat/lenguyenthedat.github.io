@@ -9,7 +9,8 @@ image:
   credit: Le Nguyen The Dat
   creditlink: https://www.flickr.com/photos/intoth3rainbow/5161017066/
 ---
-*[lenguyenthedat.html]({{ site.url }}/resume/lenguyenthedat.html)*
+
+*[[html]]({{ site.url }}/resume/lenguyenthedat.html) [[pdf]]({{ site.url }}/resume/lenguyenthedat.pdf)*
 
 -----
 
