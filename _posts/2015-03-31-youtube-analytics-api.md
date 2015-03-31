@@ -24,13 +24,28 @@ $ pip install --upgrade pip httplib2 google-api-python-client
 **Authentication and Details**: Below are a few steps you need to do beforehands:
 
 - Create new Google project at [google's developers console](https://console.developers.google.com/)
-- Enable Youtube APIs at [your-actual-project-id's API page](https://console.developers.google.com/project/your-actual-project-id/apiui/api)
+- Enable Youtube APIs at [your-actual-project-id's API page](https://console.developers.google.com/project/your-actual-project-id/apiui/api):
+
+<br>
+
+![image](http://i.imgur.com/zjPAhSs.png)
+
 - Generate your OAuth's `client_secret.json` credentials at [your-actual-project-id's credentials page](https://console.developers.google.com/project/your-actual-project-id/apiui/credential):
+
+<br>
+
+![image](http://i.imgur.com/ENAtMLE.png)
+
+<br>
+
 ![image](http://i.imgur.com/5eu7Mhj.png)
 
 (Click `Download JSON` after done)
 
 - Get your `content_owner_id` at your [Youtube's dashboard](https://cms.youtube.com) (`content_owner_id` will be displayed in the url - in this case: `thIsiSaSampLeContentOwnErID`):
+
+<br>
+
 ![image](http://i.imgur.com/pcMhqic.png)
 
 - Generate your `-oauth2.json`. In other to do this, the easiest way is to use this [Youtube API Sample file](https://github.com/youtube/api-samples/blob/master/python/yt_analytics_report.py):
