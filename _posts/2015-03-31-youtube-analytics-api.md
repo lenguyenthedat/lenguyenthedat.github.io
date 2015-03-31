@@ -8,11 +8,13 @@ tags:
 modified_time: 2015-03-31T15:45:00'
 ---
 
-Been writing some code to get data with Google APIs in the past few days, I figured it would be helpful (at least for myself!) to write a few short tutorials about them. I will start with [Youtube Analytics API](https://developers.google.com/youtube/analytics/) since it seems to be the most commonly used these days.
+In the past few days, I've been working on retrieving data from various Google Products with their APIs, I figured it would be helpful (at least for myself!) to write a few short tutorials about them.
+
+For a start, I would do it for [Youtube Analytics API](https://developers.google.com/youtube/analytics/) since it seems to be commonly used these days.
 
 <br>
 
-**Pre-requisitses**: You will need python 2.7 and a few libraries:
+**Prerequisites**: You will need python 2.7 and a few libraries:
 
 {% highlight bash %}
 $ apt-get install -y python2.7 python2.7-dev python-setuptools python-pip
