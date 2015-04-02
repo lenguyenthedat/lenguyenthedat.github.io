@@ -63,7 +63,7 @@ $ cd Youtube/
 $ python yt_analytics_report.py  --channel_id thIsiSaSampLeChanNeLID --content_owner_id thIsiSaSampLeContentOwnErID # you can also use --noauth_local_webserver if you run this on a remote server
 {% endhighlight %}
 
-- It's also adviseable that you have a look at [Google Channel Reports API Page](https://developers.google.com/youtube/analytics/v1/channel_reports) for the list of `Metrics`, `Dimensions`, and `Filters` for your own reports.
+- It's also adviseable that you have a look at [Youtube Channel Reports API Page](https://developers.google.com/youtube/analytics/v1/channel_reports) or [Youtube Content Owner Reports API Page](https://developers.google.com/youtube/analytics/v1/content_owner_reports) for the list of `Metrics`, `Dimensions`, and `Filters` to be used in your own reports.
 
 - Sample result:
 
