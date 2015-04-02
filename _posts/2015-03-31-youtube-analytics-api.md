@@ -26,13 +26,13 @@ $ pip install --upgrade pip httplib2 google-api-python-client
 **Authentication and Details**: Below are a few steps you need to do beforehands:
 
 - Create new Google project at [google's developers console](https://console.developers.google.com/)
-- Enable Youtube APIs at [your-actual-project-id's API page](https://console.developers.google.com/project/your-actual-project-id/apiui/api):
+- Enable Youtube APIs at the `APIs & auth > APIs` tab:
 
 <br>
 
 ![image](http://i.imgur.com/zjPAhSs.png)
 
-- Generate your OAuth's `client_secret.json` credentials at [your-actual-project-id's credentials page](https://console.developers.google.com/project/your-actual-project-id/apiui/credential):
+- Generate your OAuth's `client_secret.json` credentials at the `APIs & auth > Credentials` tab:
 
 <br>
 
@@ -44,47 +44,32 @@ $ pip install --upgrade pip httplib2 google-api-python-client
 
 (Click `Download JSON` after done)
 
-- Get your `content_owner_id` at your [Youtube's dashboard](https://cms.youtube.com) (`content_owner_id` will be displayed in the url - in this case: `thIsiSaSampLeContentOwnErID`):
+- Get your `content_owner_id` and `channel_id` of choice at your [Youtube's dashboard](https://cms.youtube.com) (`content_owner_id` will be displayed in the url - in this case: `thIsiSaSampLeContentOwnErID`):
 
 <br>
 
-![image](http://i.imgur.com/pcMhqic.png)
-
-- Generate your `-oauth2.json`. In other to do this, the easiest way is to use this [Youtube API Sample file](https://github.com/youtube/api-samples/blob/master/python/yt_analytics_report.py):
-
-{% highlight bash %}
-$ cd /my-folder/
-$ wget https://raw.githubusercontent.com/youtube/api-samples/master/python/yt_analytics_report.py
-$ # Make sure you have `client_secret.json` in your current directory aka /my-folder/
-$ python yt_analytics_report.py # you can also use --noauth_local_webserver if you run this on a remote server
-{% endhighlight %}
+![image](http://i.imgur.com/wB1uSoB.png)
 
 <br>
 
-**Firing your first ever API call**:
+**Firing your first ever API call** (and also, generate your `-oauth2.json` file):
 
-- Again, it's probably easiest to follow the above `yt_analytics_report.py` file. It's also adviseable that you have a look at [Google Channel Reports API Page](https://developers.google.com/youtube/analytics/v1/channel_reports) for the list of `Metrics`, `Dimensions`, and `Filters` for your own reports.
-
-- For this example, I would modify `yt_analytics_report.py`'s `run_analytics_report()` as below, with my own `content_owner_id` and `channel_id`:
-
-{% highlight python %}
-analytics_query_response = youtube_analytics.reports().query(
-  ids="contentOwner==thIsiSaSampLeContentOwnErID",
-  filters="channel==thIsiSaSampLeChanNeLID",
-  metrics=options.metrics,
-  dimensions=options.dimensions,
-  start_date=options.start_date,
-  end_date=options.end_date,
-  max_results=options.max_results,
-  sort=options.sort
-).execute()
-{% endhighlight %}
-
-- Test run:
+- In other to do this, we will use my version of [Youtube API Sample file](https://github.com/lenguyenthedat/google-data-api-tutorials/blob/master/Youtube/yt_analytics_report.py):
 
 {% highlight bash %}
-$ python yt_analytics_report.py
-Analytics Data for Channel thIsiSaSampLeChanNeLID
+$ git clone https://github.com/lenguyenthedat/google-data-api-tutorials.git
+$ cd google-data-api-tutorials # Make sure you have `client_secret.json` in google-data-api-tutorials
+$ cd Youtube/
+$ python yt_analytics_report.py  --channel_id thIsiSaSampLeChanNeLID --content_owner_id thIsiSaSampLeContentOwnErID # you can also use --noauth_local_webserver if you run this on a remote server
+{% endhighlight %}
+
+- It's also adviseable that you have a look at [Google Channel Reports API Page](https://developers.google.com/youtube/analytics/v1/channel_reports) for the list of `Metrics`, `Dimensions`, and `Filters` for your own reports.
+
+- Sample result:
+
+{% highlight bash %}
+$ python yt_analytics_report.py  --channel_id thIsiSaSampLeChanNeLID --content_owner_id thIsiSaSampLeContentOwnErID
+Analytics Data for channel: thIsiSaSampLeChanNeLID
 video                views                comments             favoritesAdded       favoritesRemoved     likes                dislikes             shares              
 123testRW4w          230.0                0.0                  0.0                  0.0                  0.0                  0.0                  0.0                 
 123testv3Lc          229.0                0.0                  0.0                  0.0                  1.0                  0.0                  0.0                 
