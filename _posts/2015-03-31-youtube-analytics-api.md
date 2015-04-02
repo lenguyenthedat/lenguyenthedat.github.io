@@ -52,7 +52,7 @@ $ pip install --upgrade pip httplib2 google-api-python-client
 
 <br>
 
-**Firing your first ever API call** (and also, generate your `oauth2` credential file i.e `youtube.dat`):
+**Firing your first ever API call** (and also, generate your `oauth2` credential file i.e `youtubeAnalytics.dat`):
 
 - In other to do this, we will use my version of [Youtube API Sample file](https://github.com/lenguyenthedat/google-data-api-tutorials/blob/master/Youtube/yt_analytics_report.py):
 
