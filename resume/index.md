@@ -20,7 +20,7 @@ image:
 
 * Like: Shell Scripting, Haskell, Python, PostgreSQL, Git.
 
-* Dislike: Java, C++, Oracle, Microsoft Office, SVN.
+* Dislike: Oracle, Microsoft Office, SVN.
 
 -----
 

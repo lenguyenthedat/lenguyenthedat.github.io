@@ -14,7 +14,7 @@ I was born and raised in Hồ Chí Minh city, Vietnam until I was 20, spent 3 ye
 
 ---
 
-I am a computer scientist:
+I am a software engineer:
 
 - I love programming, new technologies, being challenged, and building useful products.
 - I am particularly interested in solving data science and mathematics problems.
