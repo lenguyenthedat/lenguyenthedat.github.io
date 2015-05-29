@@ -4,7 +4,7 @@ title: Drawing country geological map with Python.
 date: '2015-02-07T10:38:00.001-08:00'
 comments: true
 author: Dat Le
-tags:
+tags: fun, code, tutorial, python, map, visualization
 modified_time: 2015-02-07T10:38:00.001-08:00'
 ---
 

@@ -4,7 +4,7 @@ title: 'Dexter vs Breaking Bad (IMDB score over Episodes & Seasons).'
 datate: '2015-04-19T12:45:00'
 comments: true
 author: Dat Le
-tags:
+tags: visualization, tableau, data, dexter, breakingbad, fun
 modified_time: 2015-04-19T12:45:00'
 ---
 

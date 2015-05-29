@@ -4,7 +4,7 @@ title: Minimal Tmux Cheatsheet.
 date: '2015-03-30T10:38:00.001-08:00'
 comments: true
 author: Dat Le
-tags:
+tags: tmux, unix, code, tutorial
 modified_time: 2015-03-30T10:38:00.001-08:00'
 ---
 

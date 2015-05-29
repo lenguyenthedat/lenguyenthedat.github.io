@@ -4,7 +4,7 @@ title: Managing User Privileges with Amazon Redshift / PostgreSQL
 date: '2014-07-18T07:20:00.003-07:00'
 comments: true
 author: Dat Le
-tags: 
+tags: aws, redshift, postgresql, data warehouse, tutorial, zalora
 modified_time: '2014-07-18T07:46:52.538-07:00'
 thumbnail: http://2.bp.blogspot.com/-D55vGrk18C8/U8kwlHvMoII/AAAAAAAADIc/uc99yN4ldS4/s72-c/Screen+Shot+2014-07-18+at+22.35.41.png
 blogger_id: tag:blogger.com,1999:blog-3261104696526323937.post-3941548674700694368

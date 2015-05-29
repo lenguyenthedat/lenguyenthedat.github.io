@@ -4,7 +4,7 @@ title: Fixing Luit's `Segmentation fault` error with GBK encoding.
 date: '2015-03-19T10:38:00.001-08:00'
 comments: true
 author: Dat Le
-tags:
+tags: bug, unix, luit, code
 modified_time: 2015-02-07T10:38:00.001-08:00'
 ---
 

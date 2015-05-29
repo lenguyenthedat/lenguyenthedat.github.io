@@ -4,7 +4,7 @@ title: Moving away from blogger
 date: '2014-12-04T05:06:00.001-08:00'
 comments: true
 author: Dat Le
-tags:
+tags: fun, github.io, blog, blogger, jekyll, code, tutorial
 modified_time: '2014-11-05T10:16:15.429-08:00'
 ---
 

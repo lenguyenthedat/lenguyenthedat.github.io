@@ -4,7 +4,7 @@ title: 'Redshift Error: exceeded the maximum number of cursors allowed to be ope
 date: '2015-04-10T17:45:00'
 comments: true
 author: Dat Le
-tags:
+tags: bug, aws, redshift, data warehouse, tutorial
 modified_time: 2015-04-10T17:45:00'
 ---
 

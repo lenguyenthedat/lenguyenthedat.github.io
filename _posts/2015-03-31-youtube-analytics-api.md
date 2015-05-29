@@ -4,7 +4,7 @@ title: Youtube Analytics API with Python.
 date: '2015-03-31T15:45:00'
 comments: true
 author: Dat Le
-tags:
+tags: code, tutorial, youtube, data, api, python
 modified_time: 2015-03-31T15:45:00'
 ---
 

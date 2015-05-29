@@ -4,7 +4,7 @@ title: Google AdSense API with Python.
 date: '2015-04-02T12:45:00'
 comments: true
 author: Dat Le
-tags:
+tags: code, tutorial, adsense, data, api, python
 modified_time: 2015-04-02T12:45:00'
 ---
 
