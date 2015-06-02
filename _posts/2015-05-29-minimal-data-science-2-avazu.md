@@ -34,6 +34,10 @@ The problem can be summarized as:
 ##Preparation##
 For simplicity, I've pre-processed a smaller version (1M randomed entries) of training and test data set at this chapter's [Github repo](https://github.com/lenguyenthedat/minimal-datascience/tree/master/Chapter-2/Dataset). The 2 files were also uploaded into a separated S3 bucket for Amazon Machine Learning (AML) service to use.
 
+<br>
+
+![image](https://raw.githubusercontent.com/lenguyenthedat/minimal-datascience/master/Chapter-2/AWS%20Machine%20Learning/ml0.0-s3.png)
+
 ##Scikit Learn##
 I won't be going into too much detail about my implementation this time, it should be quite similar to what we have gone through in this series' [first post](http://lenguyenthedat.com/minimal-data-science-1-starcraft/). Below, however, are a few pre-process steps that I've done in order to achieve better model:
 
@@ -203,6 +207,10 @@ Review:
 <br>
 
 ![image](https://raw.githubusercontent.com/lenguyenthedat/minimal-datascience/master/Chapter-2/AWS%20Machine%20Learning/ml2.1-data-model-settings.png)
+
+<br>
+
+Chose "Hold-out data from a different datasource" since we already did it with `test-100000R` and `train-100000R`.
 
 <br>
 
