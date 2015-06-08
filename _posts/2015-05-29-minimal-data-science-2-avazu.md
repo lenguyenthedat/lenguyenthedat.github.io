@@ -278,7 +278,7 @@ Amazon's Machine Learning (AML) clearly produced a better result than my best mo
 AML is also extremely easy to use - it took me roughly 3 days to come up with a full implementation of my Scikit-Learn's models, yet with AML, total time taken was less than 30 minutes.
 
 **Price wise**:
-Creating a model cost almost nothing with AML (except for the time taken, which is quite long comparing to Scikit-Learn!)
+Creating a model cost almost nothing with AML (except for the time taken, which is quite long ~ 600 seconds, almost 6x comparing to Scikit-Learn's slowest model!)
 However,  keep in mind that it's quite expensive to run your prediction, according to [Amazon Machine Learning's Pricing](http://aws.amazon.com/machine-learning/pricing/) it cost $0.10 per 1000 batch predictions and $0.0001 per real-time prediction. This could end up to be quite expensive if you want to use AML for Kaggle competitions with a test set of 1 million entries ($100 for each submission!).
 
 **Practical wise**:
