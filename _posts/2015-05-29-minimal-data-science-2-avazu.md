@@ -7,8 +7,9 @@ tags: code, data science, machine learning, tutorial, aws, python, pandas, sciki
 modified_time: '2015-05-29T20:50:00.001-07:00'
 comments: true
 ---
+TL;DR: [Results, Pros and Cons](http://lenguyenthedat.com/minimal-data-science-2-avazu/#results-pros-and-cons)
 
-##Introduction##
+## Introduction
 This is the second post of my **Minimal Data Science** blog series, the first post can be located at [lenguyenthedat.com/minimal-data-science-1-starcraft](http://lenguyenthedat.com/minimal-data-science-1-starcraft/). My goal for this series still, is not only sharing, tutorializing, but also, making personal notes while learning and working as a Data Scientist. I'm looking forward to receiving any feedback from you. 
 
 In this post, we will be looking into one of those classic [Kaggle](https://www.kaggle.com) challenges - the [Avazu CTR Prediction challenge](https://www.kaggle.com/c/avazu-ctr-prediction), describing how I have built a working solution for it - with acceptable result. I will also try to solve it with Amazon's new [Machine Learning](http://aws.amazon.com/machine-learning/) service.
@@ -16,7 +17,7 @@ In this post, we will be looking into one of those classic [Kaggle](https://www.
 **Note:** The source codes as well as original datasets for this series will also be updated at this [Github repository](https://github.com/lenguyenthedat/minimal-datascience) of mine.
 {: .notice}
 
-##The Challenge##
+## The Challenge
 As described in [Avazu CTR Prediction challenge](https://www.kaggle.com/c/avazu-ctr-prediction).
 
 ![image](https://kaggle2.blob.core.windows.net/competitions/kaggle/4002/media/banner_ctr.jpg)
@@ -31,14 +32,14 @@ The problem can be summarized as:
 - Submission should include all session IDs and their **click** chance.
 - Evaluation method: [Logarithmic Loss](https://www.kaggle.com/wiki/LogarithmicLoss) (Logarithmic Loss can also be calculated from the following built-in function in [Scikit-Learn](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html))
 
-##Preparation##
+## Preparation
 For simplicity, I've pre-processed a smaller version (1M randomed entries) of training and test data set at this chapter's [Github repo](https://github.com/lenguyenthedat/minimal-datascience/tree/master/Chapter-2/Dataset). The 2 files were also uploaded into a separated S3 bucket for Amazon Machine Learning (AML) service to use.
 
 <br>
 
 ![image](https://raw.githubusercontent.com/lenguyenthedat/minimal-datascience/master/Chapter-2/AWS%20Machine%20Learning/ml0.0-s3.png)
 
-##Scikit Learn##
+## Scikit Learn
 I won't be going into too much detail about my implementation this time, it should be quite similar to what we have gone through in this series' [first post](http://lenguyenthedat.com/minimal-data-science-1-starcraft/). Below, however, are a few pre-process steps that I've done in order to achieve better model:
 
 <br>
@@ -140,7 +141,7 @@ RMSE: 0.392160447839
 {% endhighlight %}
 
 
-##Amazon Machine Learning##
+## Amazon Machine Learning
 
 **Note:**  Amazon Machine Learning (AML) service is only available in region=us-east-1 at the moment.
 {: .notice}
@@ -255,7 +256,7 @@ Overview - RMSE & Detailed Report.
 
 ![image](https://raw.githubusercontent.com/lenguyenthedat/minimal-datascience/master/Chapter-2/AWS%20Machine%20Learning/ml4.2-report-explored.png)
 
-##Results, Pros and Cons##
+## Results, Pros and Cons
 Results (The lower, the better)
 
 >| Algorithm | Time Taken (s) | Log Loss | RMSE |
@@ -273,7 +274,7 @@ Results (The lower, the better)
 <br>
 
 **Performance wise**:
-AML clearly produced a better result than my best model, which scored better than half of the accepted submissions on Kaggle.
+Amazon's Machine Learning (AML) clearly produced a better result than my best model, which scored better than half of the accepted submissions on Kaggle.
 AML is also extremely easy to use - it took me roughly 3 days to come up with a full implementation of my Scikit-Learn's models, yet with AML, total time taken was less than 30 minutes.
 
 **Price wise**:
