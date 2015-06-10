@@ -19,4 +19,4 @@ A vizualization of SG BusLeh app's anonymous data set from 2015-06-03 to 2015-06
 
 <br>
 
-PS: Pretty nice free app! It's available on [Android](https://play.google.com/store/apps/details?id=originally.us.buses&hl=en) and [iOS](https://itunes.apple.com/app/id994469581).
+PS: SG BusLeh is a pretty nice free app! It's available on [Android](https://play.google.com/store/apps/details?id=originally.us.buses&hl=en) and [iOS](https://itunes.apple.com/app/id994469581).
