@@ -4,7 +4,7 @@ title: 'Singapore Bus request visualized - SG BusLeh App.'
 datate: '2015-06-08T12:45:00'
 comments: true
 author: Dat Le
-tags: visualization, tableau, data, dexter, breakingbad, fun
+tags: visualization, tableau, data, busleh, singapore, fun
 modified_time: 2015-06-08T12:45:00'
 ---
 
