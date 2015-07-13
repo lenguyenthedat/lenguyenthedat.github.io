@@ -8,6 +8,8 @@ tags: bug, linux, docker, code
 modified_time: 2015-07-13T12:45:00'
 ---
 
+![image](http://i.imgur.com/YyJFkvc.png)
+
 If you ever run into such error below when building your Docker image...
 
 {% highlight bash %}
