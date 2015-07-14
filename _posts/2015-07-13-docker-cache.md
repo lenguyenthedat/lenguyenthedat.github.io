@@ -9,6 +9,7 @@ modified_time: 2015-07-13T12:45:00'
 ---
 
 ![image](http://i.imgur.com/YyJFkvc.png)
+<div></div>
 
 If you ever run into such error below when building your Docker image...
 
@@ -52,7 +53,7 @@ The `apt-get update` command will get bypassed since it's already get cached, yo
 After a few search, I found this issue on Docker repo: https://github.com/docker/docker/issues/1996 too bad it's closed because there were not many real world use cases - they might be right though. Of course, we can always use `--no-cache=true` as an option for our `docker build` command, but it will build everything all over again everytime - you probably don't want that.
 {: .notice}
 
-<br>
+<div></div>
 
 Anyway, below are some few links that I find useful for my Docker use:
 
