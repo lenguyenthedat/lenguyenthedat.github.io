@@ -28,32 +28,23 @@
   </div><!-- /.image-wrap -->
 {% endif %}
 
-<div id="main" role="main"> 
+<div id="main" role="main">
   <div class="article-author-side">
     {% include _author-bio.html %}
   </div>
-  <article class="page">
+  <div id="index">
     <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:10 %}
+    <article>
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
       {% else %}
         <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
       {% endif %}
-
-      <p> - <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>{% if post.modified %} and last modified on <time datetime="{{ post.modified | date: "%Y-%m-%d" }}">{{ post.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
-      
-      <div class="article-wrap">
-        {{ post.content }}
-        <hr />
-        <footer role="contentinfo">
-          <div class="article-author-bottom">
-            {% include _author-bio.html %}
-          </div>
-        </footer>
-      </div><!-- /.article-wrap -->
+    </article>
     {% endfor %}
-  </article><!-- /#index -->
+  </div><!-- /#index -->
 </div><!-- /#main -->
 
 <div class="footer-wrap">
@@ -63,6 +54,6 @@
 </div><!-- /.footer-wrap -->
 
 {% include _scripts.html %}
-  
+
 </body>
 </html>
