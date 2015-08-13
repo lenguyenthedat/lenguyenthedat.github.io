@@ -19,7 +19,7 @@ In Oct 2010, I received my [MSc degree in Computer Science](https://www.cs.ox.ac
 Links
 =====
 
-* [My CV](http://lenguyenthedat.com/resume/lenguyenthedat.html)
+* [My CV](http://lenguyenthedat.com/extras/resume.html)
 * [Github](https://github.com/lenguyenthedat)
 * [Kaggle Competitions](https://www.kaggle.com/lenguyenthedat/results)
 * [LinkedIn](https://sg.linkedin.com/in/lenguyenthedat)
