@@ -10,10 +10,7 @@ image:
   creditlink: https://www.flickr.com/photos/intoth3rainbow/5161017066/
 ---
 
-I was born and raised in Hồ Chí Minh city, Vietnam until I was 20, spent 3 years studying in the United Kingdom, and have been working in Singapore ever since graduated.
-<div></div>
-I am a Senior Data Technologist (Engineer and Analytics) at [Commercialize TV](http://www.commercialize.tv/) (we are a global digital content distribution, creative and management company, connecting content creators, publishers and brands to deliver commercial outcomes).
-<div></div>
+I am currently a Senior Data Technologist (Engineer and Analytics) at [Commercialize TV](http://www.commercialize.tv/) (we are a global digital content distribution, creative and management company, connecting content creators, publishers and brands to deliver commercial outcomes).
 In Oct 2010, I received my [MSc degree in Computer Science](https://www.cs.ox.ac.uk/admissions/grad/MSc_in_Computer_Science) from the University of Oxford. My interests include programming, statistics, and data science.
 
 Links
@@ -24,8 +21,8 @@ Links
 * [Kaggle Competitions](https://www.kaggle.com/lenguyenthedat/results)
 * [LinkedIn](https://sg.linkedin.com/in/lenguyenthedat)
 
-Projects
-========
+Open Source Projects
+====================
 
 1. [Raptor](https://github.com/lenguyenthedat/raptor) An Online Retail Recommendation Engine developed in Haskell.
 
