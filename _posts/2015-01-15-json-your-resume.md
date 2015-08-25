@@ -37,4 +37,4 @@ resume export --theme=paper resume.html -F
 **Note**: You can also do this online at [*registry.jsonresume.org*](http://registry.jsonresume.org/)
 {: .notice}
 
-- **Voilà:** [*lenguyenthedat.html*](http://lenguyenthedat.com/resume/lenguyenthedat.html)!
+- **Voilà:** [*lenguyenthedat.html*](http://lenguyenthedat.com/extras/resume.html)!
