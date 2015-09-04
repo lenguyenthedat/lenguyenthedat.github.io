@@ -10,8 +10,8 @@ blogger_id: tag:blogger.com,1999:blog-3261104696526323937.post-27164403578559236
 blogger_orig_url: http://lenguyenthedat.blogspot.com/2014/01/when-disk-utility-couldnt-repair-your.html
 ---
 
-![image](http://i.imgur.com/6pXKdmv.png)
-
+![image](http://i.imgur.com/7nAIRMV.png)
+<br>
 {% highlight bash %}
 $ diskutil list # To list all your connected HDD
 $ sudo fsck_hfs -rf /dev/disk2s99 # To repair your disk2s99,
@@ -31,3 +31,9 @@ $ sudo fsck_hfs -rf /dev/disk2s99 # To repair your disk2s99,
 
 **Note:** If you encounter `Resource busy` error, try killing your current Disk Utility's fsck_hfs process from Activity Monitor or your Terminal - 60% of the time, it works every time. 
 {: .notice}
+
+<br>
+**Update:** When this also failed, you probably want to try out [DiskWarrior](http://www.alsoft.com/DiskWarrior/). It actually worked for me:
+<br>
+<br>
+![image](http://i.imgur.com/O9OkXO9.jpg)
