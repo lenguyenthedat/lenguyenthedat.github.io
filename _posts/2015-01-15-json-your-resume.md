@@ -31,7 +31,7 @@ npm install -g resume-cli
 # initiate your resume.json file
 resume init
 # once finishing
-resume export --theme=paper resume.html -F
+resume export --theme=slick resume.html -F
 {% endhighlight %}
 
 **Note**: You can also do this online at [*registry.jsonresume.org*](http://registry.jsonresume.org/)
