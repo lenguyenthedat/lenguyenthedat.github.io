@@ -51,15 +51,6 @@
       ]
     },
     {
-      "company": "MediaCorp Pte Ltd",
-      "position": "Data Scientist",
-      "website": "http://mediacorp.sg",
-      "startDate": "Dec 2014",
-      "endDate": "Feb 2015",
-      "summary": "Consumer Insights and Analytics.",
-      "highlights": []
-    },
-    {
       "company": "Zalora Group",
       "position": "Head of Data Warehouse & Data Science",
       "website": "http://worldwide.zalora.com",
@@ -93,15 +84,6 @@
         "Network Virtualization and Software Defined Network with OpenFlow. Develop and apply new algorithms for efficient traffic routing, load balancing, virtual machine placement techniques in scalable data center network",
         "Knowledge based data classification and recommendation system, built on top of Apache Mahout's collaborative filtering engine. Implemented functional and scalable Java / Python prototypes for travel industry with social network's data set"
       ]
-    },
-    {
-      "company": "Plunify Pte Ltd",
-      "position": "Software Engineer",
-      "website": "http://www.plunify.com/",
-      "startDate": "May 2011",
-      "endDate": "Jul 2011",
-      "summary": "Contributed to company's distributed middleware, developed various internal tools and libraries built around Amazon Web Services.",
-      "highlights": []
     }
   ],
   "volunteer": [],
@@ -121,21 +103,6 @@
       "startDate": "Sep 2007",
       "endDate": "Jul 2009",
       "courses": []
-    },
-    {
-      "institution": "International University of Ho Chi Minh City, Vietnam",
-      "area": "Bachelor of Science (Transferred to the University of Nottingham after 2 years)",
-      "studyType": "Computer Science",
-      "startDate": "Sep 2005",
-      "endDate": "Jul 2007",
-      "courses": []
-    },
-    {
-      "institution": "Le Hong Phong High School for the Gifted, Vietnam",
-      "area": "Mathematics specialized class",
-      "startDate": "Sep 2002",
-      "endDate": "Jul 2005",
-      "courses": []
     }
   ],
   "awards": [
@@ -150,21 +117,6 @@
       "date": "Aug 2015",
       "website":"http://www.dextra.sg/challenges/ministry-of-defence-data-analytics-challenge/",
       "awarder": "First Prize ($5000)"
-    },
-    {
-      "title": "Ho Chi Minh City Mathematics Olympiad",
-      "date": "2015",
-      "awarder": "Gold Medal"
-    },
-    {
-      "title": "Ho Chi Minh City Mathematics Olympiad",
-      "date": "2014",
-      "awarder": "Silver Medal"
-    },
-    {
-      "title": "Ho Chi Minh City Mathematics Olympiad",
-      "date": "2013",
-      "awarder": "Silver Medal"
     }
   ],
   "publications": [
