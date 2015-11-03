@@ -31,10 +31,10 @@ Normally, for such a data set, tree-based models work surprisingly well. After r
 <br><br>
 ![image](http://i.imgur.com/2ktAPv7.png)
 <br><br>
-Implementation of the algorithm is also playing a significant role. I chose [dmlc's XGBoost](https://github.com/dmlc/XGBoost) since it is by far one of the best implementations of Gradient Boosting Machine, and it has been the winner for most of the challenges lately.
+The implementation of such algorithm is also playing a significant role. I chose [dmlc's XGBoost](https://github.com/dmlc/XGBoost) since it is by far one of the best implementations of Gradient Boosting Machine, and it has been the winner for most of the challenges lately.
 
 # Feature engineering
-My very first step of feature engineering is to figure out roughly how important are the original features:
+The very first step of feature engineering is to figure out roughly how important the original features are:
 
 {% highlight python %}
 from matplotlib import pylab as plt
@@ -60,9 +60,9 @@ plt.gcf().savefig('Feature_Importance_xgb.png')
 {% endhighlight %}
 
 ![image](http://i.imgur.com/x118QjQ.png)
-*Full set of feature importances as provided by XGBoost*
+*Full set of original feature (with name censored) importances as provided by XGBoost*
 <br><br>
-Below are the list of feature engineering tasks have been done for the data set:
+Below is the list of feature engineering tasks that were done for the data set:
 
 - Combining `promotion` and `gender`:
 
@@ -99,7 +99,7 @@ train['BAS_PERC_INC_LAST_1_YR'] =
   train['BAS_PERC_INC_LAST_1_YR'].apply(lambda x: 101 if x > 101 else x)
 {% endhighlight %}
 
-- Fixing `min_child_age` - originally if there is no kid, `min_child_age` was set as 0, which is not a good value to be used. We can't use `null`, `mean()`, or `mode()` for this value, and should instead consider this age to be much higher than for those actually has kids.
+- Fixing `min_child_age` - originally if there is no kid, `min_child_age` was set as 0, which is a wrong value to be used. We can't use `null`, `mean()`, or `mode()` for this value either, and should instead consider this age to be much higher than for those actually has kids.
 
 {% highlight python %}
 def mca(row):
