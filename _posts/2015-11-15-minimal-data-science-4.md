@@ -34,10 +34,35 @@ Normally, for such a data set, tree-based models work surprisingly well. After r
 Implementation of the algorithm is also playing a significant role. I chose [dmlc's XGBoost](https://github.com/dmlc/XGBoost) since it is by far one of the best implementations of Gradient Boosting Machine, and it has been the winner for most of the challenges lately.
 
 # Feature engineering
+My very first step of feature engineering is to figure out roughly how important are the original features:
+
+{% highlight python %}
+from matplotlib import pylab as plt
+
+outfile = open('xgb.fmap', 'w')
+i = 0
+for feat in features:
+  outfile.write('{0}\t{1}\tq\n'.format(i, feat))
+  i = i + 1
+outfile.close()
+importance = classifier.get_fscore(fmap='xgb.fmap')
+importance = sorted(importance.items(), key=operator.itemgetter(1))
+df = pd.DataFrame(importance, columns=['feature', 'fscore'])
+df['fscore'] = df['fscore'] / df['fscore'].sum()
+
+# Plotitup
+plt.figure()
+df.plot()
+df.plot(kind='barh', x='feature', y='fscore', legend=False, figsize=(25, 15))
+plt.title('XGBoost Feature Importance')
+plt.xlabel('relative importance')
+plt.gcf().savefig('Feature_Importance_xgb.png')
+{% endhighlight %}
+
 ![image](http://i.imgur.com/x118QjQ.png)
 *Full set of feature importances as provided by XGBoost*
 <br><br>
-Feature engineering is one of the most important task in Data Science challenges. Below are the list of feature engineering tasks have been done for the data set:
+Below are the list of feature engineering tasks have been done for the data set:
 
 - Combining `promotion` and `gender`:
 
