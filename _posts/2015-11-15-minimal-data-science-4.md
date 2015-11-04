@@ -27,9 +27,11 @@ The task is to predict resignation probabilities within the military for 8000 pe
 {: .notice}
 
 # Choosing my model
-Normally, for such a data set, tree-based models work surprisingly well. After running a quick test with various models, [Random Forrest](https://en.wikipedia.org/wiki/Random_forest) and [Gradient Boosting Machine](https://en.wikipedia.org/wiki/Gradient_boosting) just stood out completely.
-<br><br>
-![image](http://i.imgur.com/2ktAPv7.png)
+Normally, for such a data set, tree-based ensemble models work surprisingly well. After running a quick test with various models, [Random Forrest](https://en.wikipedia.org/wiki/Random_forest) and [Gradient Boosting Machine](https://en.wikipedia.org/wiki/Gradient_boosting) just stood out completely.
+<br>
+[ ![Image](http://i.imgur.com/Hq4pJ52.png) ](http://i.imgur.com/Hq4pJ52.png)
+
+*An illustration of different algorithms and their accuracies.* Source: [scikit-learn.org](http://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html)
 <br><br>
 The implementation of such algorithm is also playing a significant role. I chose [dmlc's XGBoost](https://github.com/dmlc/XGBoost) since it is by far one of the best implementations of Gradient Boosting Machine, and it has been the winner for most of the challenges lately.
 
@@ -59,7 +61,7 @@ plt.xlabel('relative importance')
 plt.gcf().savefig('Feature_Importance_xgb.png')
 {% endhighlight %}
 
-![image](http://i.imgur.com/x118QjQ.png)
+![image](http://i.imgur.com/qDPjTs9.png)
 *Full set of original feature (with name censored) importances as provided by XGBoost*
 <br><br>
 Below is the list of feature engineering tasks that were done for the data set:
