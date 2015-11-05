@@ -6,6 +6,7 @@ author: Dat Le
 tags: random, OS X
 modified_time: '2015-10-26T20:50:00.001-07:00'
 comments: true
+featured_image: http://i.imgur.com/h7rOi8f.png
 ---
 
 This is my OS X setup. There are many like it, but this one is mine.

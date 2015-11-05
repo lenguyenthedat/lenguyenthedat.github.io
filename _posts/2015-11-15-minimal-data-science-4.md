@@ -6,6 +6,7 @@ author: Dat Le
 tags: code, data science, machine learning, tutorial, aws, python, pandas, scikit learn, kaggle, dextra, XGBoost
 modified_time: '2015-11-03T20:50:00.001-07:00'
 comments: true
+featured_image: http://i.imgur.com/J2dm605.png
 ---
 
 ![image](http://i.imgur.com/J2dm605.png)

@@ -6,14 +6,15 @@ author: Dat Le
 tags: code, data science, machine learning, tutorial, starcraft, python, pandas, scikit
 modified_time: '2014-07-29T08:52:42.374-07:00'
 comments: true
-thumbnail: http://3.bp.blogspot.com/-c57m4J8cSQc/U80-Gyo19WI/AAAAAAAADJE/AUJrG6zWp9U/s72-c/Screen+Shot+2014-07-21+at+21.47.47.png
+featured_image: http://i.imgur.com/AojCn7a.png
 blogger_id: tag:blogger.com,1999:blog-3261104696526323937.post-3295306444867294091
 blogger_orig_url: http://lenguyenthedat.blogspot.com/2014/07/minimal-data-science-1-analyze.html
 ---
 
+![image](http://i.imgur.com/AojCn7a.png)
+
 ##Forewords##
-This is the first in a data science blog series that I'm writing. My goal for this series is not only sharing, tutorializing, but also, making personal n
-otes while learning and working as a Data Scientist. I'm looking forward to receiving any feedback from you.
+This is the first in a data science blog series that I'm writing. My goal for this series is not only sharing, tutorializing, but also, making personal notes while learning and working as a Data Scientist. I'm looking forward to receiving any feedback from you.
 
 **Note:** The source codes as well as original datasets for this series will also be updated at this [Github repository](https://github.com/lenguyenthedat/minimal-datascience) of mine.
 {: .notice}

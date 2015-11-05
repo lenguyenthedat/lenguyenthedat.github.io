@@ -6,6 +6,8 @@ author: Dat Le
 tags: code, data science, machine learning, tutorial, aws, python, pandas, scikit learn, kaggle
 modified_time: '2015-05-29T20:50:00.001-07:00'
 comments: true
+featured_image: http://i.imgur.com/VXmgaox.jpg
+
 ---
 TL;DR: [Results, Pros and Cons](http://lenguyenthedat.com/minimal-data-science-2-avazu/#results-pros-and-cons)
 
@@ -20,7 +22,7 @@ In this post, we will be looking into one of those classic [Kaggle](https://www.
 ## The Challenge
 As described in [Avazu CTR Prediction challenge](https://www.kaggle.com/c/avazu-ctr-prediction).
 
-![image](https://kaggle2.blob.core.windows.net/competitions/kaggle/4002/media/banner_ctr.jpg)
+![image](http://i.imgur.com/VXmgaox.jpg)
 
 The problem can be summarized as:
 
