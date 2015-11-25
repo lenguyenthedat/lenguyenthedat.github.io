@@ -153,13 +153,16 @@
       "level": "",
       "keywords": [
         "Recommendation System",
-        "Predictive Modeling"
+        "Predictive Modeling",
+        "Scikit-Learn - XGBoost - Neural Networks"
       ]
     },
     {
       "name": "Others",
       "level": "",
       "keywords": [
+        "Data Infrastructure",
+        "Distributed System",
         "Amazon Web Services",
         "Docker",
         "Agile Development"
