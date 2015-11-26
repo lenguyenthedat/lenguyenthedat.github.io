@@ -36,9 +36,9 @@ As described in [Kaggle's Digit Recognizer](https://www.kaggle.com/c/digit-recog
 ![image](http://i.imgur.com/Jfquh1M.png)
 
 <br>
-First and foremost, don't be scared by the term [Neural Network](https://en.wikipedia.org/wiki/Artificial_neural_network) or by the image above. Neural Network is actually easier to use than you might think. Nowadays, you can build your own neural network data science model by a any of these open-source libraries with Python:
+First and foremost, don't be scared by the term [Neural Network](https://en.wikipedia.org/wiki/Artificial_neural_network) - it is actually easier to use than you might think. Nowadays, you can build your own neural network model by any of these open-source libraries with Python:
 
-- [Theano](http://deeplearning.net/software/theano/) 
+- [Theano](http://deeplearning.net/software/theano/)
 - [PyBrain](http://pybrain.org/)
 - [Nolearn](https://pythonhosted.org/nolearn/)
 - [Pylearn2](http://deeplearning.net/software/pylearn2/)
