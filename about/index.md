@@ -10,8 +10,11 @@ image:
   creditlink: https://www.flickr.com/photos/intoth3rainbow/5161017066/
 ---
 
-I am currently a Senior Data Technologist (Engineer and Analytics) at [Commercialize TV](http://www.commercialize.tv/) (we are a global digital content distribution, creative and management company, connecting content creators, publishers and brands to deliver commercial outcomes).
-In Oct 2010, I received my [MSc degree in Computer Science](https://www.cs.ox.ac.uk/admissions/grad/MSc_in_Computer_Science) from the University of Oxford. My interests include programming, statistics, and data science.
+- I am a Data Science enthusiast and also a Data Engineer by training. I design and build end-to-end data products (data pipelines, data warehouses, recommendation systems, predictive models, reporting, and visualizations).
+
+- In Oct 2010, I received my [MSc degree in Computer Science](https://www.cs.ox.ac.uk/admissions/grad/MSc_in_Computer_Science) from the University of Oxford - my interests included programming, algorithm, statistics, and information retrieval.
+
+- Feel free to drop me a message if you want to talk data :).
 
 Links
 =====
@@ -20,19 +23,20 @@ Links
 * [Github](https://github.com/lenguyenthedat)
 * [Kaggle Competitions](https://www.kaggle.com/lenguyenthedat/results)
 * [LinkedIn](https://sg.linkedin.com/in/lenguyenthedat)
+* [Presentations](https://speakerdeck.com/lenguyenthedat)
 
 Open Source Projects
 ====================
 
 1. [Raptor](https://github.com/lenguyenthedat/raptor) An Online Retail Recommendation Engine developed in Haskell.
 
-2. [AWS Redshift to RDS](https://github.com/lenguyenthedat/aws-redshift-to-rds) A tool to copy tables from Amazon Redshift to Amazon RDS PostgreSQL.
+2. [Minimal Data Science](https://github.com/lenguyenthedat/minimal-datascience) Code and dataset used in my blog series "Minimal Data Science".
 
-3. [Postgresql User Manager](https://github.com/zalora/postgresql-user-manager) A simple command-line tool for managing User Privileges in PostgreSQL Database.
+3. [AWS Redshift to RDS](https://github.com/lenguyenthedat/aws-redshift-to-rds) A tool to copy tables from Amazon Redshift to Amazon RDS PostgreSQL.
 
-4. [Minimal Data Science](https://github.com/lenguyenthedat/minimal-datascience) Code and dataset used in my blog series "Minimal Data Science".
+4. [Postgresql User Manager](https://github.com/zalora/postgresql-user-manager) A simple command-line tool for managing User Privileges in PostgreSQL Database.
 
-5. Open Source contributions: [redsift](https://github.com/zalora/redsift), [scikit-neuralnetwork](https://github.com/aigamedev/scikit-neuralnetwork), [redash](https://github.com/EverythingMe/redash), and a few more.
+5. Open Source contributions: [redsift](https://github.com/zalora/redsift), [scikit-neuralnetwork](https://github.com/aigamedev/scikit-neuralnetwork), [redash](https://github.com/EverythingMe/redash), [kaggle-ensemble-guide](https://github.com/MLWave/Kaggle-Ensemble-Guide), and a few more.
 
 Publications
 ============
