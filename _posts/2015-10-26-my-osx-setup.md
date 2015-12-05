@@ -15,6 +15,10 @@ This is my OS X setup. There are many like it, but this one is mine.
 I have been using Alfred for a good while as a Spotlight alternative. Alfred v2 gives a lot of customization and features for the end user comparing to OS X's spotlight.
 ![image](http://i.imgur.com/i4S1wuM.png)
 
+## XtraFinder - [trankynam.com/xtrafinder](https://www.trankynam.com/xtrafinder/)
+The one and only true finder for OS X.
+![image](http://i.imgur.com/3xzSHpy.png)
+
 ## Divvy - [mizage.com/divvy](http://mizage.com/divvy/)
 Simply for windows management.
 ![image](http://i.imgur.com/E0JZeYG.png)
