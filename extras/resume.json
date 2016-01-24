@@ -39,11 +39,20 @@
   },
   "work": [
     {
+      "company": "honestbee",
+      "position": "Senior Data Scientist",
+      "website": "https://honestbee.com/",
+      "startDate": "Jan 2016",
+      "endDate": "Present",
+      "summary": "Build data warehouse, predictive models, and recommendation systems.",
+      "highlights": []
+    },
+    {
       "company": "Commercialize TV",
       "position": "Senior Data Technologist",
       "website": "http://commercialize.tv",
       "startDate": "Mar 2015",
-      "endDate": "Present",
+      "endDate": "Dec 2015",
       "summary": "Built data warehouse, analytics and data science infrastructure from the ground up.",
       "highlights": [
         "Implemented project management and agile software development framework.",
