@@ -14,7 +14,7 @@ blogger_orig_url: http://lenguyenthedat.blogspot.com/2014/07/minimal-data-scienc
 ![image](http://i.imgur.com/AojCn7a.png)
 
 ##Forewords##
-This is the first in a data science blog series that I'm writing. My goal for this series is not only sharing, tutorializing, but also, making personal notes while learning and working as a Data Scientist. I'm looking forward to receiving any feedback from you.
+This is the first in a data science blog series that I'm writing. My goal for this series is not only sharing, tutorializing, but also, making personal notes while learning and working as a Data Scientist. If you are reading this blog, please feel free to give me any feedback or question you might have.
 
 **Note:** The source codes as well as original datasets for this series will also be updated at this [Github repository](https://github.com/lenguyenthedat/minimal-datascience) of mine.
 {: .notice}
