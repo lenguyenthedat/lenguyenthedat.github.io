@@ -116,6 +116,12 @@
   ],
   "awards": [
     {
+      "title": "Kaggle Inc",
+      "date": "Feb 2016",
+      "website":"https://www.kaggle.com/lenguyenthedat",
+      "awarder": "Kaggle Master"
+    },
+    {
       "title": "Dextra: Rakuten Viki Challenge",
       "date": "Sep 2015",
       "website":"http://www.dextra.sg/rakuten-viki-global-tv-recommender-challenge/",
