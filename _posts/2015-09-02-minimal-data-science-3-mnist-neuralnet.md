@@ -105,18 +105,18 @@ Even though we only used 1000 data points (comparing to 42000 datapoints from th
 A [full implementation of this solution](https://github.com/lenguyenthedat/kaggle-for-fun/tree/master/digit-recognizer) can achieve 98.71% accuracy score (top 10%).
 {: .notice}
 
-{% highlight python %}
+{% highlight bash %}
 $ python digit-recognizer.py
 Initializing neural network with 5 layers, 784 inputs and 10 outputs.
   - Convl: Rectifier  Output: (24, 24)   Channels: 16
   - Convl: Rectifier  Output: (20, 20)   Channels: 16
   - Convl: Rectifier  Output: (16, 16)   Channels: 16
-  - Dense: Rectifier  Units:  100 
-  - Dense: Softmax    Units:  10  
+  - Dense: Rectifier  Units:  10
+  - Dense: Softmax    Units:  10
 
 Training on dataset of 764 samples with 606,616 total size.
   - Reshaping input array from (764, 784) to (756, 28, 28, 1).
-  - Train: 756        Valid: 8   
+  - Train: 756        Valid: 8
   - Terminating loop after 200 total iterations.
   - Early termination after 20 stable iterations.
 
@@ -148,16 +148,16 @@ Accuracy Score:
 0.889361702128
 
 Contingency table:
-Actual   0   1   2   3   4   5   6   7   8   9   
-Pred                                          
-0       19   0   0   0   0   0   0   0   0   0   
-1        0  22   0   0   0   0   0   0   0   0   
-2        0   0  29   0   1   0   0   2   0   0   
-3        1   0   0  18   0   2   0   1   0   0   
-4        0   0   0   0  18   0   0   0   0   0   
-5        1   2   0   0   0  21   0   0   0   0   
-6        0   0   0   0   0   1  17   0   0   0   
-7        0   0   0   0   1   0   1  29   0   2   
-8        0   3   0   1   0   1   1   0  15   0   
-9        0   0   0   0   1   1   0   2   1  21    
+Actual   0   1   2   3   4   5   6   7   8   9
+Pred
+0       19   0   0   0   0   0   0   0   0   0
+1        0  22   0   0   0   0   0   0   0   0
+2        0   0  29   0   1   0   0   2   0   0
+3        1   0   0  18   0   2   0   1   0   0
+4        0   0   0   0  18   0   0   0   0   0
+5        1   2   0   0   0  21   0   0   0   0
+6        0   0   0   0   0   1  17   0   0   0
+7        0   0   0   0   1   0   1  29   0   2
+8        0   3   0   1   0   1   1   0  15   0
+9        0   0   0   0   1   1   0   2   1  21
 {% endhighlight %}

@@ -14,7 +14,7 @@ Encountered this bug trying to integrate [Tableau](http://www.tableau.com/) with
 
 ![image](http://i.imgur.com/dc2vsN3.png)
 
-###Root cause:
+## Root cause:
 
 Basically stated [here](http://docs.aws.amazon.com/redshift/latest/dg/declare.html):
 
@@ -30,8 +30,8 @@ So, the bigger your `Result Set Size per Cursor` is, the more time you save retr
 | DW2 Large single node | 16000 | 16000 | 1 |
 | DW2 Large multiple nodes | 384000 | 192000 | 2 |
 | DW2 8XL multiple nodes | 3000000 | 750000 | 4 |
-    
-###Solution:
+
+## Solution:
 
 - Go to your [Redshift cluster setting](https://console.aws.amazon.com/redshift/home) and edit your `Parameter Group` (You will need to create a new one if you haven't done so before):
 

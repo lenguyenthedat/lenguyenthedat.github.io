@@ -13,13 +13,13 @@ blogger_orig_url: http://lenguyenthedat.blogspot.com/2014/07/minimal-data-scienc
 
 ![image](http://i.imgur.com/AojCn7a.png)
 
-##Forewords##
+## Forewords
 This is the first in a data science blog series that I'm writing. My goal for this series is not only sharing, tutorializing, but also, making personal notes while learning and working as a Data Scientist. If you are reading this blog, please feel free to give me any feedback or question you might have.
 
 **Note:** The source codes as well as original datasets for this series will also be updated at this [Github repository](https://github.com/lenguyenthedat/minimal-datascience) of mine.
 {: .notice}
 
-##Preparation##
+## Preparation
 For the purpose of this project, I'm going to use this [SkillCraft](http://archive.ics.uci.edu/ml/datasets/SkillCraft1+Master+Table+Dataset) data set. (You can also download as well as have a quick look of it from this [ShareCSV url](http://www.sharecsv.com/s/dd4eadbc6e0632dc820b0c017d82aa80/SkillCraft1_Dataset.csv) - Many thanks to [Ken Tran](https://github.com/kentran) and [Huy Nguyen](https://github.com/nvquanghuy) for such a neat tool!)
 
 - **Input**: StarCraft 2 dataset (CSV) with 20 different attributes.
@@ -28,8 +28,7 @@ For the purpose of this project, I'm going to use this [SkillCraft](http://archi
 
 - **Prerequisites**: Python (with [Pandas](http://pandas.pydata.org) and [Scikit-learn](http://scikit-learn.org)), [iPython Notebook](http://ipython.org/notebook.html) (as an awesome IDE), Unix Shell Script.
 
-##In Action##
-
+## In Action
 **Step 1**: Clean the data. I'm going to use a simple Bash script for this.
 
 * As you can see: there is some "missing-value" entries - denoted as "?":
@@ -62,7 +61,6 @@ df['is_train'] = np.random.uniform(0, 1, len(df)) <= .75
 train_df, test_df = df[df['is_train']==True], df[df['is_train']==False]
 {% endhighlight %}
 
-    
 **Step 3**: Apply Machine Learning algorithm.
 
 * We will use [Random Forest](http://en.wikipedia.org/wiki/Random_forest) classification for this example:
@@ -79,7 +77,7 @@ features = ["APM","Age","TotalHours","UniqueHotkeys", "SelectByHotkeys", "Assign
 
 * Define your classifier and train it:
 (n_estimators is the number of trees in your forest, in this case I would just use 10.)
-    
+
 {% highlight python %}
 rfc = RandomForestClassifier(n_estimators=10)
 rfc.fit(train_df[list(features)], train_df.LeagueIndex)
@@ -97,7 +95,7 @@ pd.crosstab(test_df.LeagueIndex, rfc.predict(test_df[features]), rownames=["Pred
 {% highlight python %}
 RandomForestClassifier
 Actual   1   2   3   4   5   6  7
-Pred                             
+Pred
 1       17  18   7   4   0   0  0
 2       14  22  20  19   7   1  0
 3        8  28  33  64  18   4  0
@@ -153,7 +151,7 @@ from sklearn.qda import QDA
 from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 
-classifiers = [ 
+classifiers = [
     ExtraTreesClassifier(n_estimators=10),
     RandomForestClassifier(n_estimators=10),
     KNeighborsClassifier(100),
