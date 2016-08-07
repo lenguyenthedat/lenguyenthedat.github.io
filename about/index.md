@@ -30,11 +30,11 @@ Open Source Projects
 
 1. [Raptor](https://github.com/lenguyenthedat/raptor) An Online Retail Recommendation Engine developed in Haskell.
 
-2. [Minimal Data Science](https://github.com/lenguyenthedat/minimal-datascience) Code and dataset used in my blog series "Minimal Data Science".
+2. [Minimal Data Science](https://github.com/lenguyenthedat/minimal-datascience) Source code for machine learning experiments and analyses used in my blog series "Minimal Data Science".
 
-3. [AWS Redshift to RDS](https://github.com/lenguyenthedat/aws-redshift-to-rds) A tool to copy tables from Amazon Redshift to Amazon RDS PostgreSQL.
+3. [AWS Redshift to RDS](https://github.com/lenguyenthedat/aws-redshift-to-rds) A tool to replicate tables from Amazon Redshift to (RDS) PostgreSQL databases.
 
-4. [Postgresql User Manager](https://github.com/zalora/postgresql-user-manager) A simple command-line tool for managing User Privileges in PostgreSQL Database.
+4. [Postgresql User Manager](https://github.com/zalora/postgresql-user-manager) A simple command-line tool for managing User Privileges in PostgreSQL databases.
 
 5. Open Source contributions: [redsift](https://github.com/zalora/redsift), [scikit-neuralnetwork](https://github.com/aigamedev/scikit-neuralnetwork), [redash](https://github.com/EverythingMe/redash), [kaggle-ensemble-guide](https://github.com/MLWave/Kaggle-Ensemble-Guide), and a few more.
 
