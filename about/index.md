@@ -21,7 +21,7 @@ Links
 
 * [My CV](http://lenguyenthedat.com/extras/resume.html)
 * [Github](https://github.com/lenguyenthedat)
-* [Kaggle Competitions](https://www.kaggle.com/lenguyenthedat/results)
+* [Kaggle](https://www.kaggle.com/lenguyenthedat)
 * [LinkedIn](https://sg.linkedin.com/in/lenguyenthedat)
 * [Presentations](https://speakerdeck.com/lenguyenthedat)
 
