@@ -22,7 +22,7 @@ Links
 * [My CV](http://lenguyenthedat.com/extras/resume.html)
 * [Github](https://github.com/lenguyenthedat)
 * [Kaggle](https://www.kaggle.com/lenguyenthedat)
-* [LinkedIn](https://sg.linkedin.com/in/lenguyenthedat)
+* [LinkedIn](https://www.linkedin.com/in/lenguyenthedat)
 * [Presentations](https://speakerdeck.com/lenguyenthedat)
 
 Open Source Projects
