@@ -34,7 +34,7 @@ SELECT dblink_connect('dbname=dbname user=user password=password
                        host=your.redshift.address port=port');
 {% endhighlight %}
 
-- Copy a table from Redshift to RDS: 
+- Copy a table from Redshift to RDS:
 
 {% highlight sql %}
 SELECT mytable.*
