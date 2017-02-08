@@ -10,11 +10,13 @@ image:
   creditlink: https://www.flickr.com/photos/intoth3rainbow/5161017066/
 ---
 
-- I am a Data Science enthusiast and also a Data Engineer by training. I design and build end-to-end data products (data pipelines, data warehouses, recommendation systems, predictive models, reporting, and visualizations).
+- I am a Data Science enthusiast who enjoy building end-to-end data products (data infrastructure, recommendation systems, and predictive models).
 
-- In Oct 2010, I received my [MSc degree in Computer Science](https://www.cs.ox.ac.uk/admissions/grad/MSc_in_Computer_Science) from the University of Oxford - my interests included programming, algorithm, statistics, and information retrieval.
+- I am also particularly interested in security and fraud prevention (from social engineering attack, consumer facing products, and online payment).
 
-- Feel free to drop me a message if you want to talk data :).
+- I mainly use: Python, SQL, Shell Script, Haskell, Git, Tableau, Docker, and Amazon Web Services.
+
+- Feel free to drop me a message if you want to talk data or security :).
 
 Links
 =====
