@@ -10,7 +10,7 @@ image:
   creditlink: https://www.flickr.com/photos/intoth3rainbow/5161017066/
 ---
 
-- I am a Data Science enthusiast who enjoy building end-to-end data products (data infrastructure, recommendation systems, and predictive models)
+- I am a Data Science enthusiast who enjoys building end-to-end data products (data infrastructure, recommendation systems, and predictive models)
 
 - I am also particularly interested in security and fraud prevention (from social engineering attack, consumer facing products, and online payment)
 
