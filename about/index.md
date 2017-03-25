@@ -21,12 +21,13 @@ image:
 Links
 =====
 
-* [My CV](http://lenguyenthedat.com/extras/resume.html)
+* [Résume](http://lenguyenthedat.com/extras/resume.html)
 * [Github](https://github.com/lenguyenthedat)
 * [Kaggle](https://www.kaggle.com/lenguyenthedat)
 * [Medium](https://medium.com/@lenguyenthedat)
 * [LinkedIn](https://www.linkedin.com/in/lenguyenthedat)
-* [Presentations](https://speakerdeck.com/lenguyenthedat)
+* [Speaker Deck](https://speakerdeck.com/lenguyenthedat)
+* [Tableau Public](https://public.tableau.com/profile/le.nguyen.the.dat)
 
 Open Source Projects
 ====================
