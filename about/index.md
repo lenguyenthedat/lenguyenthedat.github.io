@@ -22,12 +22,12 @@ Links
 =====
 
 * [Résume](http://lenguyenthedat.com/extras/resume.html)
-* [Github](https://github.com/lenguyenthedat)
-* [Kaggle](https://www.kaggle.com/lenguyenthedat)
-* [Medium](https://medium.com/@lenguyenthedat)
+* [Open Source (Github)](https://github.com/lenguyenthedat)
+* [Kaggle (Master Tier)](https://www.kaggle.com/lenguyenthedat)
+* [Medium Stories](https://medium.com/@lenguyenthedat/latest)
 * [LinkedIn](https://www.linkedin.com/in/lenguyenthedat)
-* [Speaker Deck](https://speakerdeck.com/lenguyenthedat)
-* [Tableau Public](https://public.tableau.com/profile/le.nguyen.the.dat)
+* [Presentations](https://speakerdeck.com/lenguyenthedat)
+* [Visualizations (Tableau)](https://public.tableau.com/profile/le.nguyen.the.dat)
 
 Open Source Projects
 ====================
