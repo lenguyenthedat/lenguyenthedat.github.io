@@ -10,14 +10,6 @@ image:
   creditlink: https://www.flickr.com/photos/intoth3rainbow/5161017066/
 ---
 
-- I am a Data Science enthusiast who enjoys building end-to-end data products (data infrastructure, recommendation systems, and predictive models)
-
-- I am also particularly interested in security and fraud prevention (from social engineering attack, consumer facing products, and online payment)
-
-- I mainly use: Python, SQL, Shell Script, Haskell, Git, Tableau, Docker, and Amazon Web Services
-
-- Feel free to drop me a message if you want to talk data or security :)
-
 Links
 =====
 
