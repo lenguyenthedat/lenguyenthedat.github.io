@@ -13,7 +13,7 @@ image:
 Links
 =====
 
-* [Résume](http://lenguyenthedat.com/extras/resume.html)
+* [Résume](http://lenguyenthedat.com/extras/resume.html) - [(pdf)](http://lenguyenthedat.com/extras/Le%20Nguyen%20The%20Dat.pdf)
 * [Open Source (Github)](https://github.com/lenguyenthedat)
 * [Kaggle (Master Tier)](https://www.kaggle.com/lenguyenthedat)
 * [Medium Stories](https://medium.com/@lenguyenthedat/latest)
