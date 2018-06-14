@@ -3,5 +3,8 @@
 - title: About
   url: /about/
 
-- title: All Posts
+- title: Medium Stories
+  url: https://medium.com/@lenguyenthedat/latest
+
+- title: Blogs (deprecated)
   url: /posts/
