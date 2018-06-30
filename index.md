@@ -13,7 +13,7 @@ image:
 Links
 =====
 
-* [Résume](http://lenguyenthedat.com/extras/resume.html) - [PDF Version](http://lenguyenthedat.com/extras/Le%20Nguyen%20The%20Dat.pdf)
+* [Résume](http://lenguyenthedat.com/extras/resume.html)
 * [Open Source (Github)](https://github.com/lenguyenthedat)
 * [Kaggle (Master Tier)](https://www.kaggle.com/lenguyenthedat)
 * [Medium Stories](https://medium.com/@lenguyenthedat/latest)
@@ -40,3 +40,7 @@ Publications
 1. [Software defined network based adaptive routing for data replication in Data Centers](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6781967) IEEE International Conference on Networks, ICON 2013, Singapore. December 11, 2013
 
 2. [Virtual machine placement with two-path traffic routing for reduced congestion in data center networks](http://www.sciencedirect.com/science/article/pii/S0140366414002746) Computer Communications 53. November 1, 2014
+
+3. [Kaggle Ensemble Guide](https://mlwave.com/kaggle-ensembling-guide/) KDnuggets / MLWave. June 11, 2015
+
+4. [Data Analytics Blogs](https://towardsdatascience.com/@lenguyenthedat/) Towards Data Science. January 1, 2018

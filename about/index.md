@@ -44,4 +44,3 @@ Publications
 3. [Kaggle Ensemble Guide](https://mlwave.com/kaggle-ensembling-guide/) KDnuggets / MLWave. June 11, 2015
 
 4. [Data Analytics Blogs](https://towardsdatascience.com/@lenguyenthedat/) Towards Data Science. January 1, 2018
-
