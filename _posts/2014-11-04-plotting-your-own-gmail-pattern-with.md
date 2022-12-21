@@ -8,7 +8,7 @@ tags: code, python, fun, visualization
 modified_time: '2014-11-05T10:16:15.429-08:00'
 thumbnail: http://3.bp.blogspot.com/-ybyiYacXL3Y/VFppY6rMSEI/AAAAAAAAD-c/_Ho18ZrR4QE/s72-c/Screen%2BShot%2B2014-10-29%2Bat%2B23.20.42.png
 blogger_id: tag:blogger.com,1999:blog-3261104696526323937.post-3207203360010265651
-blogger_orig_url: http://lenguyenthedat.blogspot.com/2014/11/plotting-your-own-gmail-pattern-with.html
+blogger_orig_url: https://lenguyenthedat.blogspot.com/2014/11/plotting-your-own-gmail-pattern-with.html
 ---
 
 So, one day I was wondering about my email sending pattern...

@@ -14,9 +14,9 @@ featured_image: http://i.imgur.com/J2dm605.png
 # Introduction
 This is the fourth post (and quite possibly the last) of my **Minimal Data Science** blog series, the previous posts can be located here:
 
-- [lenguyenthedat.github.io/minimal-data-science-1-starcraft](http://lenguyenthedat.github.io/minimal-data-science-1-starcraft/)
-- [lenguyenthedat.github.io/minimal-data-science-2-avazu](http://lenguyenthedat.github.io/minimal-data-science-2-avazu)
-- [lenguyenthedat.github.io/minimal-data-science-3-mnist-neuralnet](http://lenguyenthedat.github.io/minimal-data-science-3-mnist-neuralnet/)
+- [lenguyenthedat.github.io/minimal-data-science-1-starcraft](https://lenguyenthedat.github.io/minimal-data-science-1-starcraft/)
+- [lenguyenthedat.github.io/minimal-data-science-2-avazu](https://lenguyenthedat.github.io/minimal-data-science-2-avazu)
+- [lenguyenthedat.github.io/minimal-data-science-3-mnist-neuralnet](https://lenguyenthedat.github.io/minimal-data-science-3-mnist-neuralnet/)
 
 <br>
 In this post, we will be looking into a recent Data Science challenge hosted in Singapore by [Dextra](http://www.dextra.sg/) in August 2015: the [MINDEF Data Analytics Challenge](http://www.dextra.sg/challenges/ministry-of-defence-data-analytics-challenge/).

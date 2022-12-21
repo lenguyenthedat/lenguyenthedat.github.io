@@ -14,8 +14,8 @@ featured_image: http://i.imgur.com/MFFhjFZ.jpg
 ## Introduction
 This is the third post of my **Minimal Data Science** blog series, the previous posts can be located here:
 
-- [lenguyenthedat.github.io/minimal-data-science-1-starcraft](http://lenguyenthedat.github.io/minimal-data-science-1-starcraft/)
-- [lenguyenthedat.github.io/minimal-data-science-2-avazu](http://lenguyenthedat.github.io/minimal-data-science-2-avazu)
+- [lenguyenthedat.github.io/minimal-data-science-1-starcraft](https://lenguyenthedat.github.io/minimal-data-science-1-starcraft/)
+- [lenguyenthedat.github.io/minimal-data-science-2-avazu](https://lenguyenthedat.github.io/minimal-data-science-2-avazu)
 
 <br>
 In this post, we will be looking into one of the most well-known Data Science challenges: the [MNIST - Digit Recognizer](https://www.kaggle.com/c/digit-recognizer) and a solution with Convolution Neural Network model.

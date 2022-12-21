@@ -8,7 +8,7 @@ modified_time: '2014-07-29T08:52:42.374-07:00'
 comments: true
 featured_image: http://i.imgur.com/AojCn7a.png
 blogger_id: tag:blogger.com,1999:blog-3261104696526323937.post-3295306444867294091
-blogger_orig_url: http://lenguyenthedat.blogspot.com/2014/07/minimal-data-science-1-analyze.html
+blogger_orig_url: https://lenguyenthedat.blogspot.com/2014/07/minimal-data-science-1-analyze.html
 ---
 
 ![image](http://i.imgur.com/AojCn7a.png)

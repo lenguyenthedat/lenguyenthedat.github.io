@@ -7,7 +7,7 @@ tags: postgresql, dblink, code, data warehouse, aws, tutorial
 modified_time: '2014-07-12T23:36:28.620-07:00'
 comments: true
 blogger_id: tag:blogger.com,1999:blog-3261104696526323937.post-5467635293146884147
-blogger_orig_url: http://lenguyenthedat.blogspot.com/2014/05/create-downstream-postgresql-database.html
+blogger_orig_url: https://lenguyenthedat.blogspot.com/2014/05/create-downstream-postgresql-database.html
 ---
 
 Ran into this request just today, in short, we need to create a downstream Database for our Data Warehouse for better scalability, security, and performance for our internal users.

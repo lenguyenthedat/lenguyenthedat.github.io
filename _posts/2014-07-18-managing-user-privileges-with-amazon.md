@@ -8,7 +8,7 @@ tags: aws, redshift, postgresql, data warehouse, tutorial, zalora
 modified_time: '2014-07-18T07:46:52.538-07:00'
 thumbnail: http://2.bp.blogspot.com/-D55vGrk18C8/U8kwlHvMoII/AAAAAAAADIc/uc99yN4ldS4/s72-c/Screen+Shot+2014-07-18+at+22.35.41.png
 blogger_id: tag:blogger.com,1999:blog-3261104696526323937.post-3941548674700694368
-blogger_orig_url: http://lenguyenthedat.blogspot.com/2014/07/managing-user-privileges-with-amazon.html
+blogger_orig_url: https://lenguyenthedat.blogspot.com/2014/07/managing-user-privileges-with-amazon.html
 ---
 
 ![image](http://2.bp.blogspot.com/-D55vGrk18C8/U8kwlHvMoII/AAAAAAAADIc/uc99yN4ldS4/s1600/Screen+Shot+2014-07-18+at+22.35.41.png)
@@ -20,7 +20,7 @@ In particular, it's even a harder problem for PostgreSQL Database, especially Am
 
 <br>
 
-Supposed you now have your [Data Warehouse running on Amazon Redshift](http://lenguyenthedat.github.io/building-full-data-warehouse-solution/).
+Supposed you now have your [Data Warehouse running on Amazon Redshift](https://lenguyenthedat.github.io/building-full-data-warehouse-solution/).
 
 <br>
 

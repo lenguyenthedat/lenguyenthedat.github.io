@@ -75,5 +75,5 @@ mplleaflet.show(fig=ax.figure) # To output _map.html file and display it in your
 
 ![image](http://i.imgur.com/0nR85Ln.png)
 
-**Note**: You can also then view it live at: [*singapore-roads.html*](http://lenguyenthedat.github.io/extras/singapore-roads.html)
+**Note**: You can also then view it live at: [*singapore-roads.html*](https://lenguyenthedat.github.io/extras/singapore-roads.html)
 {: .notice} 

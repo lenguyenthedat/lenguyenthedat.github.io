@@ -8,7 +8,7 @@ tags: code, tutorial, adsense, data, api, python
 modified_time: 2015-04-02T12:45:00'
 ---
 
-Following my last blog post on [Youtube Analytics API](http://lenguyenthedat.github.io/youtube-analytics-api/), this post will be about [Google AdSense (Management) API](https://developers.google.com/adsense/management/index).
+Following my last blog post on [Youtube Analytics API](https://lenguyenthedat.github.io/youtube-analytics-api/), this post will be about [Google AdSense (Management) API](https://developers.google.com/adsense/management/index).
 
 <br>
 

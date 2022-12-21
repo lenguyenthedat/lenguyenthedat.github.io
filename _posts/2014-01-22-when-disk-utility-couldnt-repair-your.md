@@ -7,7 +7,7 @@ tags: mac, osx, bugs, tips
 modified_time: '2014-01-22T01:19:42.619-08:00'
 comments: true
 blogger_id: tag:blogger.com,1999:blog-3261104696526323937.post-2716440357855923636
-blogger_orig_url: http://lenguyenthedat.blogspot.com/2014/01/when-disk-utility-couldnt-repair-your.html
+blogger_orig_url: https://lenguyenthedat.blogspot.com/2014/01/when-disk-utility-couldnt-repair-your.html
 ---
 
 ![image](http://i.imgur.com/7nAIRMV.png)
