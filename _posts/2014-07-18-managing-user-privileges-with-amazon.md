@@ -20,7 +20,7 @@ In particular, it's even a harder problem for PostgreSQL Database, especially Am
 
 <br>
 
-Supposed you now have your [Data Warehouse running on Amazon Redshift](http://lenguyenthedat.com/building-full-data-warehouse-solution/).
+Supposed you now have your [Data Warehouse running on Amazon Redshift](http://lenguyenthedat.github.io/building-full-data-warehouse-solution/).
 
 <br>
 

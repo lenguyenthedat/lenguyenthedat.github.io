@@ -15,7 +15,7 @@ A vizualization of SG BusLeh app's anonymous data set from 2015-06-03 to 2015-06
 
 ## Bonus: time series gif:
 
-![image](http://lenguyenthedat.com/extras/sg-busleh.gif)
+![image](http://lenguyenthedat.github.io/extras/sg-busleh.gif)
 
 <br>
 

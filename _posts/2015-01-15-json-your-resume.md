@@ -37,4 +37,4 @@ resume export --theme=slick resume.html -F
 **Note**: You can also do this online at [*registry.jsonresume.org*](http://registry.jsonresume.org/)
 {: .notice}
 
-- **Voilà:** [*lenguyenthedat.html*](http://lenguyenthedat.com/extras/resume.html)!
+- **Voilà:** [*lenguyenthedat.html*](http://lenguyenthedat.github.io/extras/resume.html)!

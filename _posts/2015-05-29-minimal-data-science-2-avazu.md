@@ -9,10 +9,10 @@ comments: true
 featured_image: http://i.imgur.com/VXmgaox.jpg
 
 ---
-TL;DR: [Results, Pros and Cons](http://lenguyenthedat.com/minimal-data-science-2-avazu/#results-pros-and-cons)
+TL;DR: [Results, Pros and Cons](http://lenguyenthedat.github.io/minimal-data-science-2-avazu/#results-pros-and-cons)
 
 ## Introduction
-This is the second post of my **Minimal Data Science** blog series, the first post can be located at [lenguyenthedat.com/minimal-data-science-1-starcraft](http://lenguyenthedat.com/minimal-data-science-1-starcraft/). My goal for this series still, is not only sharing, tutorializing, but also, making personal notes while learning and working as a Data Scientist. If you are reading this blog, please feel free to give me any feedback or question you might have.
+This is the second post of my **Minimal Data Science** blog series, the first post can be located at [lenguyenthedat.github.io/minimal-data-science-1-starcraft](http://lenguyenthedat.github.io/minimal-data-science-1-starcraft/). My goal for this series still, is not only sharing, tutorializing, but also, making personal notes while learning and working as a Data Scientist. If you are reading this blog, please feel free to give me any feedback or question you might have.
 
 In this post, we will be looking into one of those classic [Kaggle](https://www.kaggle.com) challenges - the [Avazu CTR Prediction challenge](https://www.kaggle.com/c/avazu-ctr-prediction), describing how I have built a working solution for it - with acceptable result. I will also try to solve it with Amazon's new [Machine Learning](http://aws.amazon.com/machine-learning/) service.
 
@@ -42,7 +42,7 @@ For simplicity, I've pre-processed a smaller version (1M randomed entries) of tr
 ![image](https://raw.githubusercontent.com/lenguyenthedat/minimal-datascience/master/Chapter-2/AWS%20Machine%20Learning/ml0.0-s3.png)
 
 ## Scikit Learn
-I won't be going into too much detail about my implementation this time, it should be quite similar to what we have gone through in this series' [first post](http://lenguyenthedat.com/minimal-data-science-1-starcraft/). Below, however, are a few pre-process steps that I've done in order to achieve better model:
+I won't be going into too much detail about my implementation this time, it should be quite similar to what we have gone through in this series' [first post](http://lenguyenthedat.github.io/minimal-data-science-1-starcraft/). Below, however, are a few pre-process steps that I've done in order to achieve better model:
 
 <br>
 
